@@ -1,0 +1,23 @@
+Utenti già registrati:
+Username  -----  Password
+user1	    |       psw1
+user2       |       psw2
+---------------------------
+Utente da registrare: user3
+
+***********************************
+SIGNUP: 
+-è possibile registrare altri utenti, ma questi non potranno comunicare con nessun altro per come è stata implementata la "rubrica"
+-come scritto nella Documentazione, il primo parametro preso da stdin per l'operazione di signup è la porta di ascolto del server
+***********************************
+
+Possibili bug:
+-è possibile (in rarissimi casi) che il device, in risposta alle operazioni di LOGIN o SIGNUP, inizi a stampare all'infinito il menu di avvio. In questo caso è necessario terminare il device e riavviarlo.
+
+-La maggior parte delle strutture dati sono array: per una questione di tempistiche non sono stati implementati i controlli sugli indici, assumendo che la dimensioni scelta sia ampiamente sufficiente a contenere i dati. 
+Se così non fosse però, questa scelta potrebbe portare a degli errori.
+***********************************
+
+Il file "FileDaCondividere" è il file utilizzato per testare la condivisione di file.
+La directory FileScaricati è la directory nei quali vengono memorizzati i file ricevuti da un peer.
+  
